@@ -1,0 +1,35 @@
+#general data
+name: bryant
+
+#object
+server:
+  port: 8082 
+
+#inline
+person: {name: bryant, age: 18}
+
+#list, set (char)
+city:
+  - boston
+  - new york city
+  - philadelphia
+  - baltimore
+  
+#city: [beijing,tianjin,chongqing,shanghai]
+
+#list, set (object)
+student:
+  - name: tom
+    age: 18
+    city: boston
+  - name: lucy
+    age: 17
+    city: baltimore
+    
+#student: [{name: tom,age: 18,city: boston},{name: lucy,age: 17,city: baltimore}]
+
+#Map
+map:
+  key1: value1
+  key2: value2
+  key3: value3
